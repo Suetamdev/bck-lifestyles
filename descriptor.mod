@@ -4,5 +4,5 @@ tags={
 	"Character Interactions"
 }
 name="BCK - Lifestyles"
-supported_version="1.17.*"
+supported_version="1.19.*"
 remote_file_id="2983150713"

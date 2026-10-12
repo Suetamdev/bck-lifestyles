@@ -10,7 +10,7 @@
 
     character_modifier = {
         learning = 2
-        monthly_wanderer_lifestyle_xp_gain_mult = 0.03
+        monthly_wanderer_lifestyle_xp_gain_mult = 0.1
     }
 
     auto_selection_weight = {
@@ -63,7 +63,7 @@ warriors_rhapsody_perk = {
     character_modifier = {
         martial = 2
         prowess = 1
-        monthly_martial_lifestyle_xp_gain_mult = 0.03
+        monthly_martial_lifestyle_xp_gain_mult = 0.1
     }
 }
 
@@ -78,7 +78,7 @@ silver_tongue_perk = {
 
     character_modifier = {
         diplomacy = 2
-        monthly_diplomacy_lifestyle_xp_gain_mult = 0.03
+        monthly_diplomacy_lifestyle_xp_gain_mult = 0.1
     }
 }
 
@@ -92,7 +92,7 @@ street_serenades_perk = {
 
     character_modifier = {
         stewardship = 2
-        monthly_stewardship_lifestyle_xp_gain_mult = 0.03
+        monthly_stewardship_lifestyle_xp_gain_mult = 0.1
     }
 }
 
@@ -106,7 +106,7 @@ lyrical_subterfuge_perk = {
 
     character_modifier = {
         intrigue = 2
-        monthly_intrigue_lifestyle_xp_gain_mult = 0.03
+        monthly_intrigue_lifestyle_xp_gain_mult = 0.1
     }
 }
 
@@ -121,7 +121,7 @@ tales_of_the_world_perk = {
 
     character_modifier = {
         character_travel_speed = 10
-        monthly_lifestyle_xp_gain_mult = 0.07
+        monthly_lifestyle_xp_gain_mult = 0.1
         owned_legend_spread_mult = 0.15
     }
 }
@@ -137,7 +137,7 @@ fertility_blessing_perk = {
     character_modifier = {
         health = 0.25
         life_expectancy = 5
-        years_of_fertility = 15
+        years_of_fertility = 10
     }
 }
 

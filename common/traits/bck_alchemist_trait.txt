@@ -2,9 +2,7 @@
     category = lifestyle
     name = trait_alchemist
 
-    intrigue = 1
     learning = 2
-    owned_hostile_scheme_success_chance_add = 10
     health = 0.25
     epidemic_resistance = 5
 

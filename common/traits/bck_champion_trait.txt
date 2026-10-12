@@ -5,7 +5,7 @@ champion = {
     name = trait_champion
 
     martial = 2
-    negate_prowess_penalty_add = 10
+    negate_prowess_penalty_add = 5
     prowess_per_prestige_level = 1
     health = 0.25
 

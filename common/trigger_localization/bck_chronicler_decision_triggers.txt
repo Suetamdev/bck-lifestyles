@@ -1,3 +1,4 @@
 ﻿write_annotations_missing_equipped_artifact = {
 	global_not = write_annotations_missing_equipped_artifact
+	first_not = write_annotations_missing_equipped_artifact
 }

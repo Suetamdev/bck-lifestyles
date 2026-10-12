@@ -38,7 +38,7 @@
 
 	character_modifier = {
 		owned_hostile_scheme_success_chance_add = 15
-		enemy_hostile_scheme_success_chance_add = -15
+		enemy_hostile_scheme_success_chance_add = -10
 	}
 }
 
@@ -54,7 +54,7 @@ studing_herbs_perk = {
 
 	character_modifier = {
 		negate_health_penalty_add = 0.5
-		enemy_hostile_scheme_success_chance_add = -10
+		travel_danger = -5
 	}
 }
 
@@ -69,6 +69,7 @@ basic_alchemy_perk = {
 
 	character_modifier = {
 		health = 0.25
+		epidemic_resistance = 5
 	}
 }
 
@@ -106,8 +107,8 @@ herb_gardens_perk = {
 
 	government_character_modifier = {
 		flag = government_is_landless_adventurer
-		epidemic_travel_danger = -15
 		negate_health_penalty_add = 0.25
+		fertility = 0.1
 	}
 
 	government_character_modifier = {
@@ -115,7 +116,6 @@ herb_gardens_perk = {
 		invert_check = yes
 		stress_gain_mult = -0.15
 		negate_health_penalty_add = 0.5
-		epidemic_resistance = 5
 	}
 }
 
@@ -129,7 +129,7 @@ the_secret_of_life_perk = {
 	parent = herb_gardens_perk
 
 	character_modifier = {
-		life_expectancy = 3
+		life_expectancy = 2.5
 		health = 0.25
 	}
 }
@@ -144,13 +144,13 @@ making_fools_gold_perk = {
 
 	government_character_modifier = {
 		flag = government_is_landless_adventurer
-		domicile_monthly_gold_mult = 0.75
+		domicile_monthly_gold_mult = 0.25
 	}
 
 	government_character_modifier = {
 		flag = government_is_landless_adventurer
 		invert_check = yes
-		monthly_income_mult = 0.25
+		monthly_income_mult = 0.15
 	}
 }
 

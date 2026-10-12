@@ -5,7 +5,7 @@
     icon = node_learning
 
     character_modifier = {
-        monthly_dynasty_prestige = 0.25
+        monthly_dynasty_prestige = 0.15
     }
 
     auto_selection_weight = {

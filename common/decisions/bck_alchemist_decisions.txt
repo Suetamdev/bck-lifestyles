@@ -8,7 +8,7 @@
     selection_tooltip = use_potions_in_scheme_decision_tooltip
 
     cost = {
-        gold = 100
+        gold = medium_gold_value
     }
 
     cooldown = { days = 180 }
@@ -79,40 +79,30 @@ create_a_miracle_potion_decision = {
     selection_tooltip = create_a_miracle_potion_decision_tooltip
 
     cost = {
-        gold = 1500
+        gold = {
+            add = monumental_gold_value
+            multiply = 3
+        }
     }
 
-    cooldown = { days = 3650 }
+    cooldown = { days = 5475 }
 
     is_shown = {
         has_trait = alchemist
-        OR = {
-            has_trait_with_flag = illness
-            has_trait = depressed_1
-            has_trait = depressed
-            has_trait = infirm
-        }
+        has_any_illness = yes
     }
 
     is_valid_showing_failures_only = {
         custom_description = {
             text = "create_a_miracle_potion_decision_missing_scheme"
-            OR = {
-                has_trait_with_flag = illness
-                has_trait = depressed_1
-                has_trait = infirm
-            }
+            has_any_illness = yes
         }
     }
 
     effect = {
         if = {
             limit = {
-                OR = {
-                    has_trait_with_flag = illness
-                    has_trait = depressed_1
-                    has_trait = infirm
-                }
+                has_any_illness = yes
             }
             send_interface_toast = {
                 title = create_a_miracle_potion_decision_msg
@@ -132,9 +122,6 @@ create_a_miracle_potion_decision = {
                 remove_trait = measles
                 remove_trait = dysentery
                 remove_trait = ergotism
-                remove_trait = infirm
-                remove_trait = depressed_1
-                remove_trait = depressed_1
             }
         }
         else = {
@@ -151,7 +138,7 @@ create_a_miracle_potion_decision = {
         base = 0
         modifier = {
             add = 100
-            has_trait_with_flag = illness
+            has_trait = infirm
             gold >= 2000
         }
     }
